@@ -21,8 +21,7 @@ body {
   font-family: 'Epilogue', sans-serif;
   
   padding: 6rem 2.3rem;
-  max-width: 32rem;
-  margin: 0 auto;
+
 
   /*
     espaçamento posso fazer de 2 formas
@@ -31,15 +30,24 @@ body {
   */
 }
 
+.page {
+  max-width: 32rem;
+  margin: 0 auto;
+}
+
 @media (min-width: 700px) {
   
   
   body{
+    padding: 8rem;
+    
+  }
+
+  .page {
     display: flex;
     gap: 10rem;
     align-items: center;
-    padding: 8rem;
-    max-width: 144rem;
+    max-width: 102rem;
     margin: 0 auto;
   }
 
@@ -48,6 +56,7 @@ body {
   }
 
   ul {
+    margin-top: 8rem;
     max-width: 50rem;
   }
   ul li {
@@ -58,7 +67,6 @@ body {
     font-size: 2.4rem;
     line-height: 3.2rem;
 
-  
   }
 
 }
